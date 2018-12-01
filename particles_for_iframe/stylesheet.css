@@ -11,14 +11,14 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #b61924;
+  background-color: #111111;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
 } /* ---- stats.js ---- */
 .count-particles {
-  background: #000022;
+  background: #111111;
   position: absolute;
   top: 48px;
   left: 0;

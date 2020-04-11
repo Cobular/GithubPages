@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Puzzle 1</title>
+</head>
+<body>
+
+<script>
+    function toggle(){
+        var x = document.getElementById("toggle")
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = 'none';
+        }
+    }
+</script>
+
+<h1>Puzzle 1 - 16 is basic</h1>
+    Hi! Welcome to the orienteering part of the hunt! You will be looking for eggs with QR codes in them that will take you to sites like this.
+
+    <br>
+
+    Each page will have a fun computery puzzle on it, which can be decoded or solved to give you a bearing and a hint for what to look for in that direction.
+
+    If you get stuck, you can scroll down and hit the hint button, which will reveal some things that you can use to help you solve the puzzle.
+
+    <H3>Have fun!</H3>
+
+
+    <code style="font-family: 'Roboto Mono', monospace">Begin Puzzle</code>
+    <hr>
+    <code style="font-family: 'Roboto Mono', monospace">0x33,0x32,0x30,0xb0,0x2c,0x20,0x73,0x6f,0x6d,0x65,0x77,0x68,0x65,0x72,0x65,0x20,0x74,0x6f,0x61,0x73,0x74,0x79,0x21</code>
+    <hr>
+    <code style="font-family: 'Roboto Mono', monospace">End Puzzle</code>
+
+    <button type="button" class="belowcontent" onclick="toggle()">Need a hint?</button>
+    <div id="toggle" style="display: none">
+        <h1>Are you sure you're stuck?</h1>
+        <a href="https://en.wikipedia.org/wiki/Hexadecimal">Wikipedia</a>
+        <a href="https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')">Tools</a>
+    </div>
+</body>
+</html>

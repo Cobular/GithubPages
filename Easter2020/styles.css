@@ -1,0 +1,13 @@
+.belowcontent {
+    position: absolute;
+    top: 100vh;
+    background: tomato;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.code {
+    font-family: 'Roboto Mono', monospace;
+}

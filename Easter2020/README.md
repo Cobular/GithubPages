@@ -1,0 +1,1 @@
+This directory contains puzzle pages for my family's 2020 easter egg hunt.  

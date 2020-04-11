@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Puzzle 3</title>
+</head>
+<body>
+
+<script>
+    function toggle(){
+        var x = document.getElementById("toggle")
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = 'none';
+        }
+    }
+</script>
+
+<h1>Puzzle%203</h1>
+Doing great! This one's another decode puzzle, but it's a bit more web-related than the other two.
+
+Again, cyberchef might be helpful here.
+
+<code style="font-family: 'Roboto Mono', monospace">Begin Puzzle</code>
+<hr>
+<code style="font-family: 'Roboto Mono', monospace">%F0%9D%9F%90%F0%9D%9F%97%F0%9D%9F%8E%20%5E%5E%5E,%20%F0%9D%90%AB%F0%9D%90%A0%F0%9D%90%9B%20%F0%9D%90%9F%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%AD%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%9E%20%F0%9D%90%A0%F0%9D%90%9A%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%AB%20%F0%9D%90%9B%F0%9D%90%A8%F0%9D%90%B1:%0A</code>
+<hr>
+<code style="font-family: 'Roboto Mono', monospace">End Puzzle</code>
+
+<button type="button" class="belowcontent" onclick="toggle()">Need a hint?</button>
+<div id="toggle" style="display: none">
+    URL Encoding (you can figure it out from here, I believe in you!
+</div>
+</body>
+</html>

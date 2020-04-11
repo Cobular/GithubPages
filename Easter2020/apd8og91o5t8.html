@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Puzzle 2</title>
+</head>
+<body>
+
+<script>
+    function toggle(){
+        var x = document.getElementById("toggle")
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = 'none';
+        }
+    }
+</script>
+
+<h1>Puzzle 2 - [^-A-Za-z0-9+/=]|=[^=]|={3,}$</h1>
+Nice job! This one will be in a similar vein as before, but with a twist! Good luck!
+
+You might want to use <a href="https://gchq.github.io/CyberChef">this</a> to help solve it!
+
+<code style="font-family: 'Roboto Mono', monospace">Begin Puzzle</code>
+<hr>
+<code style="font-family: 'Roboto Mono', monospace">MTQwsCwgNyB5ZWFycyBvZiBiYWQgbHVjayB3aWxsIGJlIG9uIGV0aGFuIG9yIGRhZCBzb29uOg==</code>
+<hr>
+<code style="font-family: 'Roboto Mono', monospace">End Puzzle</code>
+
+<button type="button" class="belowcontent" onclick="toggle()">Need a hint?</button>
+<div id="toggle" style="display: none">
+    <a href="https://en.wikipedia.org/wiki/Base64">Wikipedia</a>
+    <a href="https://gchq.github.io/CyberChef/#recipe=Base64('A-Za-z0-9%2B/%3D',true)">CyberChef Recipe</a>
+</div>
+</body>
+</html>

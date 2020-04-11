@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Puzzle 2</title>
+</head>
+<body>
+
+<script>
+    function toggle(){
+        var x = document.getElementById("toggle")
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = 'none';
+        }
+    }
+</script>
+
+<h1>Puzzle 4 - Peek Inside</h1>
+New puzzle type! No more decoding here, it's all about pictures and hidden secrets!
+
+<code style="font-family: 'Roboto Mono', monospace">Begin Puzzle</code>
+<hr>
+<img src="u1ztj759625g_secret.jpg"><a href="u1ztj759625g_secret.jpg"></a>
+<hr>
+<code style="font-family: 'Roboto Mono', monospace">End Puzzle</code>
+
+<button type="button" class="belowcontent" onclick="toggle()">Need a hint?</button>
+<div id="toggle" style="display: none">
+    Use notepad.exe buddy
+</div>
+</body>
+</html>

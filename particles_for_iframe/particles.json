@@ -11,7 +11,7 @@
       "value": "#FF0A1B"
     },
     "shape": {
-      "type": ["circle", "triangle", "star"],
+      "type": "circle",
       "stroke": {
         "width": 0,
         "color": "#000000"

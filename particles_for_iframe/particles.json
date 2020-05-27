@@ -18,12 +18,12 @@
       }
     },
     "opacity": {
-      "value": 0.5,
-      "random": false,
+      "value": 0.7,
+      "random": true,
       "anim": {
-        "enable": false,
+        "enable": true,
         "speed": 1,
-        "opacity_min": 0.1,
+        "opacity_min": 0.5,
         "sync": false
       }
     },
@@ -33,7 +33,7 @@
       "anim": {
         "enable": true,
         "speed": 5,
-        "size_min": 0.3,
+        "size_min": 4,
         "sync": false
       }
     },
@@ -46,7 +46,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 4,
+      "speed": 1,
       "direction": "none",
       "random": false,
       "straight": false,
